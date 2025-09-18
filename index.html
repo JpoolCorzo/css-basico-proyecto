@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 02</title>
+</head>
+
+<body>
+
+    <style>
+        tbody {
+            font-size: 100%;
+            font-style: italic;
+        }
+
+        table, td {
+            border: 1px solid black
+        }
+        
+        label, thead {
+            font-weight: bold;
+        }
+    </style>
+
+    <header>
+        <nav>
+            <a href="#Form">Formulario</a>
+            <a href="#Table">Tabla</a>
+            <a href="#Footer">Footer</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulario de Registro</h1>
+        <form id="Form">
+            <label>Ingresar Nombre y Apellido</label><br>
+            <input type="text" placeholder="Nombre"><br>
+            <br>
+            <label>Ingresar Email</label><br>
+            <input type="email" placeholder="Email"><br>
+            <br>
+            <label>Ingresar Contraseña</label><br>
+            <input type="password" maxlength="8" minlength="4"><br>
+            <br>
+            <label>Ingresar Fecha de Nacimiento</label><br>
+            <input type="date"><br>
+            <br>
+            <label>Rango</label><br>
+            <input type="range" min="0" max="100" value="10" step="10"><br>
+            <br>
+            <label>Seleccionar Genero</label><br>
+            <input type="radio" name="genero">Masculino<br>
+            <input type="radio" name="genero">Femenino<br>
+            <br>
+            <label>Seleccionar sus Hobbies</label><br>
+            <input type="checkbox">Me gusta jugar Fuchibol<br>
+            <input type="checkbox">Me gusta comer Chaufa<br>
+            <input type="checkbox">Me gusta viajar<br>
+            <input type="checkbox">Me gusta escuhcar música<br>
+            <input type="checkbox">Me gusta programar<br>
+            <br>
+            <input type="submit" placeholder="Enviar" height="100px">
+        </form>
+        <br>
+        <img src="logo-delta-8.png" alt="Logo Delta" width="300px">
+
+        <table id="Table">
+            <caption>
+                <h2>Lista de Trabajadores Registrados</h2>
+            </caption>
+            <colgroup span="6" width="17%">
+            <thead>
+                <tr>
+                    <td>Nombre</td>
+                    <td>Email</td>
+                    <td>Contraseña</td>
+                    <td>Fecha de Nacimiento</td>
+                    <td>Genero</td>
+                    <td>Hobbies</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jeampool Corzo</td>
+                    <td>jpofslgs@gmail.com</td>
+                    <td>sgsgrdrg</td>
+                    <td>2004-14-23</td>
+                    <td>Masculino</td>
+                    <td>Fuchibol, Viajar, Música</td>
+                </tr>
+                <tr>
+                    <td>Sofia Martinez</td>
+                    <td>Sofia@gmail.com</td>
+                    <td>samlhkse</td>
+                    <td>2004-06-25</td>
+                    <td>Masculino</td>
+                    <td>Fuchibol, Chaufa, Música</td>
+                </tr>
+                <tr>
+                    <td>Carlos Rojas</td>
+                    <td>Carlos@gmail.com</td>
+                    <td>skijljlil</td>
+                    <td>2006-08-16</td>
+                    <td>Masculino</td>
+                    <td>Chaufa, Música</td>
+                </tr>
+                <tr>
+                    <td>Maria Flores</td>
+                    <td>Maria@gmail.com</td>
+                    <td>sthfthg</td>
+                    <td>2002-12-11</td>
+                    <td>Masculino</td>
+                    <td>Fuchibol, Viajar</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <br><br><br>
+    <footer id="Footer">
+        <h2>Jeampool Corzo Cajak</h2>
+        <p>estudiante de ingenieria UNCP</p>
+        <H1>2025</H1>
+    </footer>
+
+</body>
+
+</html>
